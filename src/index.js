@@ -1,5 +1,5 @@
 // starter variable
-const running = false;
+let running = false;
 
 
 // food generator
@@ -29,3 +29,26 @@ const start = () => {
 }
 
 start();
+
+// movements
+const movements = (code) => {
+
+    // left movement
+    if (code.keyCode === 37 || code.code === 'KeyA') {
+
+    }
+    // right movement
+    if (code.keyCode === 39 || code.code === 'KeyD') {
+
+    }
+    // up movement
+    if (code.keyCode === 38 || code.code === 'KeyW') {
+
+    }
+    // down movement
+    if (code.keyCode === 40 || code.code === 'KeyS') {
+
+    }
+}
+const snake = document.getElementById('snake');
+document.onkeydown = movements;
