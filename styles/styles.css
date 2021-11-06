@@ -43,10 +43,14 @@ h3 {
     height: 15px;
 }
 
-.snake_head {
+#snake {
     background: yellow;
 }
 
 .food {
     background: rgb(33, 166, 255);
+}
+
+.snake_body {
+    background: white;
 }
